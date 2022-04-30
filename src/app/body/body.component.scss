@@ -1,0 +1,70 @@
+.body {
+    background: #8ef8d0;
+    color: #fff;
+    font-family: 'Dosis', sans-serif;
+    height: 100%;
+}
+
+.section {
+    /*border: 1px solid yellow;*/
+    max-width: 100%;
+    height: 100%;
+    display: block;
+    margin-top: 149px;
+}
+
+.contenedor {
+    /*border: 1px solid red;*/
+    margin-top: 110px;
+    max-width: 1200%;
+    height: 800px;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+}
+.banner {
+    border-radius: 10px;
+    text-align: center;
+    /*padding: 20px;*/
+    background-size: cover;
+    background-position: center center;
+    margin-top: 110px;
+    border-top: 100px;
+    width: 30%;
+    height: 588px;
+    margin: 100px 10px;
+    color: rgba(0, 0, 0, 0.651);
+    font-size: 1.0rem;
+    font-family: 'Dosis' sans-serif;
+
+}
+.banner-image {
+    width: 100px;
+    height: 80px;
+    object-fit: cover;
+    display: inline-block;
+}
+
+.contenedor-images {
+    margin: 110px 0;
+    border-top: 100px;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card {
+    /*border-radius: 10px;*/
+    min-height: 200px;
+    font-weight: bold;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+
+    width: calc(33.33% - 20px);
+}
+
+
+

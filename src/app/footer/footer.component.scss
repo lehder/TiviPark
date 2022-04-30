@@ -1,0 +1,15 @@
+.container {
+    height: 100px;
+    background: #84b6f4;
+    display: flex;
+}
+.container-logo {
+    height: 100px;
+    width: 350px;
+}
+.logo {
+    margin: 0 100px;
+    height: 100px;
+    width: 200px;
+    object-fit: cover;
+}
